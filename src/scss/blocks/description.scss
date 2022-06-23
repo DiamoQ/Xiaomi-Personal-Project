@@ -1,0 +1,39 @@
+.container-description{
+  display: flex;
+  padding-left: 34px;
+  margin-bottom: 89px;
+}
+
+.description__photo {
+  width: 570px;
+  height: 1053px;
+
+  &-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.description__list {
+  flex: 1;
+  padding-left: 60px;
+  margin-top: -5px;
+}
+
+.description__list-item{
+  margin-bottom: 50px;
+}
+
+.description__list-item__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 8px;
+  letter-spacing: 0.05rem;
+}
+
+.description__list-item__text {
+  font-size: 14px;
+  padding-right: 85px;
+  line-height: 17px;
+  letter-spacing: 0.03rem;
+}

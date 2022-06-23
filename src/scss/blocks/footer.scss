@@ -1,0 +1,49 @@
+.footer {
+  height: 100px;
+  background-color: black;
+}
+
+.container-footer {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 13px;
+  padding-left: 32px;
+}
+
+.footer__rules {
+  text-decoration: underline;
+}
+
+.footer__messengers {
+  display: flex;
+}
+
+.footer__inst-link {
+  margin-right: 23px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+
+  &-number {
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 10px;
+    align-items: center
+  }
+
+  &-mail {
+    display: flex;
+    flex-grow: 1;
+    align-items: center
+  }
+}
+
+.footer__contacts-icon {
+  margin-right: 10px;
+}
+

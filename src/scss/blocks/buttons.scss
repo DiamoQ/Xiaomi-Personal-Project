@@ -1,0 +1,15 @@
+.sell-button {
+  text-transform: uppercase;
+  background-color: black;
+  width: 420px;
+  height: 80px;
+  color: #fff;
+  letter-spacing: 19px;
+  font-size: 21px;
+  border: none;
+  transition: all .3s;
+
+  &:hover {
+    background-color: #FF4040;
+  }
+}
